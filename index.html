@@ -7,6 +7,7 @@
     <title>NFT-Challenge</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo-vault-boy.png">
 </head>
 <body>
     <header>       
@@ -20,41 +21,51 @@
             <a href="#">About</a>
             <a href="#">Artist</a>
         </nav>
-        <input type="text" placeholder="Search related to NFT">
+        <div class="search">
+            <input type="text" placeholder="Search related to NFT">
+            <img src="img/logo-vault-boy.png" alt="">
+        </div>     
     </header>
     <main>
         <section class="left-section">
             <h1>Best <span>NFT</span> Collection for Your Future</h1>
-            <button class="color">Explore Now</button>
-            <button class="nocolor">Create NFT</button>
-            <table>
-                <thead>
-                    <tr>62500</tr>
-                    <tr>14000</tr>
-                    <tr>5200</tr>
-                </thead>
-                <tbody>
-                    <tr>Collection</tr>
-                    <tr>Auctions</tr>
-                    <tr>Artist</tr>
-                </tbody>
-            </table>
+            <nav>
+                <button class="color">Explore Now</button>
+                <button class="nocolor">Create NFT</button>
+            </nav>
+            <div class="table">
+                <div class="table-tittle">
+                    <h4 class="border">
+                        62500
+                        <p>Collection</p>
+                    </h4>
+                    <h4 class="border">
+                        14000
+                        <p>Auctions</p>
+                    </h4>
+                    <h4>
+                        5200
+                        <p>Artist</p>
+                    </h4>
+                </div>                   
+            </div>
         </section>
         <section class="right-section">
-            <img src="img/image-vault-boy.png" alt="">
-            <div class="circle-background"></div>
-            <aside>
-                <div class="aside-div">
-                    <p>Current Bid</p>
-                    <h3>12,43 ETH</h3>
-                    <button>place Bid</button>
-                </div>
-                <div class="aside-div">
-                    <p>Ends Inc</p>
-                    <h3>12 : 24 : 00</h3>
-                    <button>View NFT</button>
-                </div>
-            </aside>
+            <div class="circle-background">
+                <img class="big-pic" src="img/image-vault-boy.png" alt="">
+                <aside>
+                    <div class="aside-div-left">
+                        <p>Current Bid</p>
+                        <h3>12,43 ETH</h3>
+                        <button>place Bid</button>
+                    </div>
+                    <div class="aside-div-right">
+                        <p>Ends Inc</p>
+                        <h3>12 : 24 : 00</h3>
+                        <button>View NFT</button>
+                    </div>
+                </aside>
+            </div>
         </section>
     </main>
     <footer>
